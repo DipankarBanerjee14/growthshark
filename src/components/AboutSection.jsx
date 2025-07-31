@@ -90,7 +90,7 @@ const AboutSection = () => {
                 </div>
 
                 {/* Layered Cards with Glassmorphism */}
-                <div className="relative h-[500px]">
+                <div className="relative h-[500px] mb-28">
                     {/* Card 1 */}
                     <div
                         className="absolute left-[-20px] top-[110px] w-[280px] h-[320px] z-[30] bg-cover bg-center p-6 rounded-xl shadow-[0_15px_25px_rgba(0,0,0,0.5)] flex flex-col justify-end"
