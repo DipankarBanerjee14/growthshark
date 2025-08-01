@@ -1,6 +1,7 @@
 import Hero from "../components/Hero";
 import AboutSection from "../components/AboutSection";
 import Why from "../components/Why";
+import Testimonials from "../components/Testimonials";
 
 
 export default function HomeAttack() {
@@ -9,6 +10,7 @@ export default function HomeAttack() {
             <Hero />
             <AboutSection />
             <Why />
+            <Testimonials />
         </div>
     );
 }
