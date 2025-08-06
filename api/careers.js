@@ -46,7 +46,7 @@ export default async function handler(req, res) {
             // Compose email
             const mailOptions = {
                 from: `"Job Application" <${process.env.EMAIL_USERNAME}>`,
-                to: "diptesh@proriterz.com",
+                to: "banerjeedip761@gmail.com",
                 subject: `New Job Application from ${name}`,
                 html: `
           <h3>New Application Details</h3>
